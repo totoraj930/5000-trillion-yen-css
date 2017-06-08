@@ -1,0 +1,274 @@
+/*
+ * 5000 trillion yen css
+ * https://github.com/totoraj930/5000-trillion-yen-css
+ * (c) 2017 Reona Oshima (totoraj).
+ * License: MIT
+ */
+.number-5000,
+.number-5000 * {
+	white-space: nowrap;
+}
+.number-5000,
+.number-5000-i {
+	display: inline-block;
+	position: relative;
+	background: linear-gradient(
+		to bottom,
+		#d50100 0%,
+		#890400 45%,
+		#e7100d 45%,
+		#260607 90%,
+		#000 100%
+	);
+	padding-right: .2em;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	font-weight: bold;
+}
+.number-5000-i {
+	font-style: italic;
+}
+.number-5000:before,
+.number-5000-i:before {
+	content: attr(title);
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	padding-right: .2em;
+	background: linear-gradient(
+		to bottom right,
+		rgba(255, 255, 255, 0.5) 0%,
+		rgba(255, 255, 255, 0) 40%,
+		rgba(0, 0, 0, 0) 50%,
+		rgba(0, 0, 0, 0.5) 100%
+	);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+.number-5000:after,
+.number-5000-i:after {
+	content: attr(title);
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	padding-right: .2em;
+	color: transparent;
+	text-shadow:
+		/* クリーム1-1 */
+		-.009em -.009em 0 #ffa507,
+		-.010em -.010em 0 #ffb93f,
+		-.011em -.011em 0 #ffb93f,
+		-.012em -.012em 0 #ffb93f,
+		-.013em -.013em 0 #fff4e1,
+		-.014em -.014em 0 #fff4e1,
+		-.015em -.015em 0 #fff4e1,
+		-.016em -.016em 0 #fff4e1,
+		-.017em -.017em 0 #fff5e3,
+		-.018em -.018em 0 #ffba34,
+		-.019em -.019em 0 #e6ab38,
+		-.020em -.020em 0 #c19237,
+		-.021em -.021em 0 #a07d38,
+		-.022em -.022em 0 #776136,
+		-.023em -.023em 0 #6a5435,
+		-.024em -.024em 0 #2e2b27,
+		-.025em -.025em 0 #000,
+		/* クリーム1-2 */
+		.009em .005em 0 #ffa507,
+		.010em .005em 0 #ffb93f,
+		.011em .005em 0 #ffb93f,
+		.012em .005em 0 #ffb93f,
+		.013em .005em 0 #fff4e1,
+		.014em .005em 0 #fff4e1,
+		.015em .005em 0 #fff4e1,
+		.016em .005em 0 #fff4e1,
+		.017em .005em 0 #fff5e3,
+		.018em .005em 0 #ffba34,
+		.019em .005em 0 #e6ab38,
+		.020em .005em 0 #c19237,
+		0 .007em 0 #a07d38,
+		0 .007em 0 #776136,
+		0 .007em 0 #6a5435,
+		0 .007em 0 #2e2b27,
+		0 .007em 0 #000,
+
+		/* 白2-1 */
+		.014em .014em 0 #333,
+		.013em .013em 0 #333,
+		.012em .012em 0 #222,
+		.011em .011em 0 #222,
+		.010em .010em 0 #fff,
+		/* 白2-2 */
+		0 .014em 0 #333,
+		0 .013em 0 #333,
+		0 .012em 0 #222,
+		0 .011em 0 #222,
+		0 .010em 0 #fff,
+		/* 白2-3 */
+		.014em .004em 0 #333,
+		.013em .003em 0 #333,
+		.012em .002em 0 #222,
+		.011em .001em 0 #222,
+		.010em 0 0 #fff,
+
+		/* グレー2-1 */
+		.011em .011em 0 #b0bbc3,
+		.012em .012em 0 #b0bbc3,
+		.013em .013em 0 #b0bbc3,
+		.014em .014em 0 #b0bbc3,
+		.015em .015em 0 #b0bbc3,
+		.016em .016em 0 #b0bbc3,
+		.017em .017em 0 #b0bbc3,
+		.018em .018em 0 #b0bbc3,
+		.019em .019em 0 #b0bbc3,
+		.020em .020em 0 #b0bbc3,
+		.021em .021em 0 #b0bbc3,
+		.022em .022em 0 #b0bbc3,
+		.023em .023em 0 #b0bbc3,
+		.024em .024em 0 #b0bbc3,
+		.025em .025em 0 #b0bbc3,
+		/* グレー2-2 */
+		0 .011em 0 #b0bbc3,
+		0 .012em 0 #b0bbc3,
+		0 .013em 0 #b0bbc3,
+		0 .014em 0 #b0bbc3,
+		0 .015em 0 #b0bbc3,
+		0 .016em 0 #b0bbc3,
+		0 .017em 0 #b0bbc3,
+		0 .018em 0 #b0bbc3,
+		0 .019em 0 #b0bbc3,
+		0 .020em 0 #b0bbc3,
+		0 .021em 0 #b0bbc3,
+		0 .022em 0 #b0bbc3,
+		0 .023em 0 #b0bbc3,
+		0 .024em 0 #b0bbc3,
+		0 .025em 0 #b0bbc3,
+		/* グレー2-3 */
+		.011em .001em 0 #b0bbc3,
+		.012em .002em 0 #b0bbc3,
+		.013em .003em 0 #b0bbc3,
+		.014em .004em 0 #b0bbc3,
+		.015em .005em 0 #b0bbc3,
+		.016em .006em 0 #b0bbc3,
+		.017em .007em 0 #b0bbc3,
+		.018em .008em 0 #b0bbc3,
+		.019em .009em 0 #b0bbc3,
+		.020em .010em 0 #b0bbc3,
+		.021em .011em 0 #b0bbc3,
+		.022em .012em 0 #b0bbc3,
+		.023em .013em 0 #b0bbc3,
+		.024em .014em 0 #b0bbc3,
+		.025em .015em 0 #b0bbc3,
+
+		/* グレー1-1 */
+		.026em .026em 0 #bfced8,
+		.027em .027em 0 #bfced8,
+		.028em .028em 0 #bfced8,
+		.029em .029em 0 #bfced8,
+		.030em .030em 0 #bfced8,
+		.031em .031em 0 #bfced8,
+		.032em .032em 0 #bfced8,
+		.035em .035em 0 #dce2e3,
+		/* グレー1-2 */
+		0 .026em 0 #bfced8,
+		0 .027em 0 #bfced8,
+		0 .028em 0 #bfced8,
+		0 .029em 0 #bfced8,
+		0 .030em 0 #bfced8,
+		0 .031em 0 #bfced8,
+		0 .032em 0 #bfced8,
+		0 .035em 0 #dce2e3,
+		/* グレー1-3 */
+		.026em .016em 0 #bfced8,
+		.027em .017em 0 #bfced8,
+		.028em .018em 0 #bfced8,
+		.029em .019em 0 #bfced8,
+		.030em .020em 0 #bfced8,
+		.031em .021em 0 #bfced8,
+		.032em .022em 0 #bfced8,
+		.035em .025em 0 #dce2e3,
+
+		/* 白1-1 */
+		.036em .036em 0 #fff,
+		.037em .037em 0 #fff,
+		.038em .038em 0 #fff,
+		.039em .039em 0 #fff,
+		.040em .040em 0 #fff,
+		/* 白1-2 */
+		0 .036em 0 #fff,
+		0 .037em 0 #fff,
+		0 .038em 0 #fff,
+		0 .039em 0 #fff,
+		0 .040em 0 #fff,
+		/* 白1-3 */
+		.036em .026em 0 #fff,
+		.037em .027em 0 #fff,
+		.038em .028em 0 #fff,
+		.039em .029em 0 #fff,
+		.040em .020em 0 #fff,
+
+
+		/* 黒1-1 */
+		.041em .041em 0 #000,
+		.042em .042em 0 #000,
+		.043em .043em 0 #000,
+		.044em .044em 0 #000,
+		.045em .045em 0 #000,
+		.046em .046em 0 #000,
+		.047em .047em 0 #000,
+		.048em .048em 0 #000,
+		.049em .049em 0 #000,
+		.050em .050em 0 #000,
+		/* 黒1-2 */
+		0 .041em 0 #000,
+		0 .042em 0 #000,
+		0 .043em 0 #000,
+		0 .044em 0 #000,
+		0 .045em 0 #000,
+		0 .046em 0 #000,
+		0 .047em 0 #000,
+		0 .048em 0 #000,
+		0 .049em 0 #000,
+		0 .050em 0 #000,
+		/* 黒1-3 */
+		.041em .031em 0 #000,
+		.042em .032em 0 #000,
+		.043em .033em 0 #000,
+		.044em .034em 0 #000,
+		.045em .035em 0 #000,
+		.046em .036em 0 #000,
+		.047em .037em 0 #000,
+		.048em .038em 0 #000,
+		.049em .039em 0 #000,
+		.050em .040em 0 #000,
+		/* 黒0-1 */
+		.05em .05em .05em #000
+		;
+}
+
+/* IEを除外 */
+.number-5000,
+.number-5000-i {
+	color: #db100a\9;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.number-5000,
+	.number-5000-i {
+		background: none;
+		color: #db100a;
+		-ms-text-shadow: 0 0 .05em #000;
+		text-shadow: 0 0 .05em #000;
+	}
+	.number-5000:after,
+	.number-5000:before,
+	.number-5000-i:after,
+	.number-5000-i:before {
+		content: "";
+		display: none;
+	}
+}

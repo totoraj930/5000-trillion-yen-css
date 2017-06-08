@@ -1,0 +1,167 @@
+/* note 初期化処理 */
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	color: #2f3236;
+	font-size: 16px;
+	font-family: "Helvetica Neue", "メイリオ", Meiryo, Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	line-height: 1;
+}
+iframe {
+	max-width: 100%;
+}
+img {
+	border: none;
+}
+a {
+	color: #1697be;
+	text-decoration: none;
+}
+a:hover,
+a:focus {
+	color: #48d4ff;
+	text-decoration: underline;
+}
+.dummy {
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.demo-5000 {
+	font-size: 2em;
+	font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.head {
+	padding: 1em;
+	text-align: center;
+}
+.title {
+	margin-bottom: 32px;
+	font-size: 2.8em;
+	font-size: 7vw;
+	font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.head-link {
+	display: block;
+	list-style: none;
+	font-size: 0;
+}
+.head-link li {
+	display: inline-block;
+	margin: .5em;
+	font-size: 16px;
+	font-size: 1rem;
+}
+.head-link a {
+	position: relative;
+	display: inline-block;
+	font-size: 1.8em;
+	background: #ffffff;
+	z-index: 0;
+	line-height: 1.5;
+	font-family: "Noto Sans Japanese", sans-serif;
+}
+.head-link a:hover{
+	opacity: .8;
+}
+
+
+.section {
+	width: 100%;
+	max-width: 1040px;
+	margin: 1em auto;
+	padding: 1em;
+}
+
+.section h2 {
+	padding: .2em 0;
+	border-bottom: 1px solid #8e8e8e;
+	font-size: 2.5em;
+	font-family: "Noto Sans Japanese", sans-serif;
+	text-align: center;
+}
+.section .body {
+	padding: 1em;
+}
+.section .body h3 {
+	line-height: 1.5;
+}
+.section .body p {
+	margin: .5em 0;
+	line-height: 1.5;
+}
+.section .body pre {
+	margin-bottom: 1.5em;
+	border: 1px solid #eee;
+}
+.section .body code {
+	background: #fff;
+	font-size: .9em;
+	font-family: "Helvetica Neue", "メイリオ", Meiryo, Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.table {
+	width: 100%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	text-align: left;
+	line-height: 1.5;
+}
+.table th {
+	padding: .5em;
+	background: #2f3236;
+	color: #fff;
+	border: 1px solid #ccc;
+	font-weight: bold;
+}
+.table td {
+	padding: .5em;
+	border: 1px solid #ccc;
+	width: 50%;
+}
+
+.table .green {
+	color: #28b400;
+}
+.table .red {
+	color: #d40010;
+}
+.table .b {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 640px) {
+	.title {
+		font-size: 1.3em;
+		margin-bottom: 16px;
+	}
+	.head-link li {
+		margin: 0 .3em;
+	}
+	.head-link a {
+		font-size: 1.3em;
+	}
+	.section .body {
+		padding: 1em 0;
+	}
+}
+
+
+
+
+
+
+
+
+
