@@ -141,6 +141,12 @@ a:focus {
 	font-weight: bold;
 }
 
+.copyright {
+	padding: 1em;
+	text-align: center;
+	line-height: 1.5;
+}
+
 @media screen and (max-width: 640px) {
 	.title {
 		font-size: 1.3em;
